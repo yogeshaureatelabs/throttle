@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "throttle",
+  "version": "0.0.1",
+  "description": "Helper function to use request animation frame on window events'",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "url": "https://gitlab.com/esiao-tools/throttle.git",
+    "type": "git"
+  },
+  "author": "Aurélien Dias",
+  "license": "MIT",
+  "dependencies": {
+    "raf": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
