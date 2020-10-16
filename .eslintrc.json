@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "plugins": [
+    "standard"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "brace-style": [2, "stroustrup", { "allowSingleLine": true }],
+    "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 1 }]
+  }
+}
